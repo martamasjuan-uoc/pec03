@@ -26,6 +26,12 @@ html {
     margin-right: 6px;
 }
 
+
+.logo a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
 .navigation {
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
