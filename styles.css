@@ -1,0 +1,559 @@
+
+body {
+    background-color: #e8e8e8;
+    margin:0
+}
+
+
+html {
+  font-family: 'Noto Serif', serif;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 22px;
+    margin-right: 6px;
+}
+
+.navigation {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 100px 0px;
+}
+
+.preform h2 {
+        padding-right: 30px;
+    }
+
+.onpage {
+    font-style: italic;
+}
+
+.navigation ul li {
+    margin-right: 14px;
+    text-transform: uppercase;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+  opacity: 0.5;
+}
+
+.navigation ul li a:active {
+  font-style: italic, bold;
+}
+
+.button-header button {
+  border: none;
+  background-color: #9b1700;
+  color: #FFFFFF;
+  padding: 6px;
+  text-align: center;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.button-header button:hover {
+    background-color: #1c1c1c;
+}
+
+.content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9b1700;
+}
+
+h4 a {
+    text-decoration: none;
+    color: #9b1700;
+}
+
+h5 {
+    color: #9b1700;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.parrafo1 {
+    padding: 0px 90px 0px;
+}
+
+.parrafo1-sesiones p{
+    text-align: left;
+    padding: 0px 70px 0px;
+}
+
+
+.iconos-funcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.iconos-funcion img {
+    height: 140px;
+}
+
+.iconos-funcion p {
+    padding: 0px 30px 0px;
+}
+
+
+.formulario {
+    display: flex;
+    align-items: flex-start;
+}
+
+.preform {
+    text-align: left;
+    padding-right: 80px;
+}
+
+
+.form-box {
+    max-width: 300px;
+}
+
+.formulario input[type="text"]{
+    width: calc(100%);
+    padding: 12px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    border-radius: 0;
+    color: #1c1c1c;
+    border: 1px solid;
+    }
+
+.texto-form {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8px;
+    margin-top: 14px;
+}
+
+.texto-form a {
+    color: #9b1700;
+    text-decoration: none;
+}
+
+.casilla-check{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px -3px 14px;
+}
+
+.button-form button {
+      border: none;
+      border-radius: 4px;
+      background-color: #9b1700;
+      color: #FFFFFF;
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 12px;
+      text-decoration: none;
+}
+
+.button-form button:hover {
+    background-color: #1c1c1c;
+}
+
+
+.footer-container {
+    background-color: #433A44;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    padding: 30px 20px 20px;
+    margin-top: 80px;
+}
+
+.footer-container a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    color: #9b1700;
+}
+
+.footer-fila1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation1 ul li::after {
+    content: ' · ';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-navigation1 ul{
+    display: flex;
+    padding: 0px;
+}
+
+.footer-navigation1 ul li {
+    list-style: none;
+}
+
+
+.footer-navigation2 ul{
+    display: flex;
+    padding: 0px;
+}
+
+.footer-navigation2 ul li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+.footer-navigation2 ul li::after {
+    content: ' · ';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.footer2 p {
+    margin: auto;
+}
+
+.club-container {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px 40px;
+}
+
+.club-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.club1, .club2, .club3, .club4, .club5, .club6 {
+    padding: 0px 10px 14px;
+    flex: 200px;
+}
+
+
+hr {
+    border: 2.5px #9b1700;
+    border-style: none none dotted;
+    color: #9b1700;
+    margin-top: 30px;
+}
+
+
+.sesiones-left {
+    text-align: left;
+}
+
+.navigation-sesiones ul {
+    padding: 0px;
+    margin-top: 6px;
+}
+
+.navigation-sesiones ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 6px 0px 0px
+}
+
+.navigation-sesiones ul li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.navigation-sesiones ul li a:hover{
+    opacity: 0.5;
+}
+
+
+.sesiones-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.sesiones-left {
+    min-width: 200px;
+}
+
+
+.sesiones-right {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 700px;
+}
+
+
+.sesiones-fila {
+    text-align: left;
+}
+
+
+.sesiones-fila img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.peliculas {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 40px;
+}
+
+.pelicula3 a {
+    text-decoration: none;
+}
+
+.pelicula3 a:hover {
+    opacity: 0.5;
+}
+
+.sesiones-right h2 {
+    padding-bottom: 10px;
+}
+
+.peliculas h5 {
+    margin: 10px;
+}
+
+.peliculas img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pelicula1, .pelicula2, .pelicula3 {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    flex: 100px;
+    margin: 0px 10px;
+}
+
+
+.breadcrumbs ul {
+    display: flex;
+    vertical-align: baseline;
+    padding: 0px;
+}
+
+.breadcrumbs ul li {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.breadcrumbs ul li::after {
+    content: ' | ';
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+
+.breadcrumbs ul li a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.breadcrumbs ul li a:hover {
+    opacity: 0.5;
+}
+
+
+.page {
+    color: #1c1c1c;
+    opacity: 0.5;
+}
+
+.titulo1 {
+    text-align: left;
+}
+
+
+.ficha-tecnica {
+    text-align: left;
+    min-width: 300px;
+}
+
+
+.ficha-tecnica h3 {
+    border: 1px;
+    border-style: none none solid;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.ficha-tecnica p {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+
+.sobre-klaus {
+    max-width: 700px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.sobre-klaus img {
+    border-radius: 100px;
+    float: left;
+    margin-right: 15px;
+    width: 80px;
+    shape-outside: circle(50%);
+
+}
+
+.video-trailer {
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .button-header{
+        order: 1;
+        margin-bottom: 14px;
+    }
+    .logo{
+        margin-bottom: 14px;
+        order: 2;
+    }
+    .header-container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation{
+        order: 3;
+    }
+    
+    .navigation ul{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .navigation ul li{
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+    .iconos-funcion{
+        flex-direction: column;
+    }
+    
+    .parrafo1 {
+        padding: 0px;
+    }
+    
+    .formulario{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .preform{
+        margin-bottom: 14px;
+        padding: 0px;
+    }
+    
+    .footer-navigation1 ul li, .footer-navigation2 ul li {
+        margin-right: 0
+    }
+    .footer-navigation1 ul{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .footer-navigation2 ul{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-navigation1 ul li::after, .footer-navigation2 ul li::after {
+        content: '';
+    }
+    
+    .footer-fila1{
+        flex-direction:column;
+    }
+
+    .footer2{
+        text-align:center;
+    }
+    
+    .sesiones-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .formulario input[type="text"]{
+        width:100%;
+        box-sizing: border-box;
+        }
+    
+    .form-box { 
+        max-width: 100%;
+    }
+    
+    .sobre-klaus {
+    padding-left: 0px;
+    padding-top: 30px;
+    }
+
+    
+    }
