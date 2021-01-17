@@ -561,5 +561,8 @@ hr {
     padding-top: 30px;
     }
 
+    .peliculas {
+    flex-direction:column;
+    }
     
     }
