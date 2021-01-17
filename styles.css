@@ -133,7 +133,8 @@ h5 {
 
 .parrafo1-sesiones p{
     text-align: left;
-    padding: 0px 70px 0px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 
@@ -564,5 +565,11 @@ hr {
     .peliculas {
     flex-direction:column;
     }
+    
+    .parrafo1-sesiones p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     
     }
